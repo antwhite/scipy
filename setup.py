@@ -58,9 +58,10 @@ Operating System :: MacOS
 MAJOR = 1
 MINOR = 7
 MICRO = 3
+LOCAL = "+p37m1"
 ISRELEASED = True
 IS_RELEASE_BRANCH = True
-VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
+VERSION = '%d.%d.%d%s' % (MAJOR, MINOR, MICRO, LOCAL)
 
 
 # Return the git revision as a string
